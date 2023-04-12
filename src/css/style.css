@@ -72,27 +72,27 @@ body {
     background-color: #47555E;
     color: #EEEEEE;
     width: 100vw;
-    position: fixed;
     bottom: 0;
     left: 0;
 }
 
 /*---------- Specific : Home page ----------*/
-main {
-    width: 100vw;
-}
-
-.main__image {
-    width: 100vw;
-    background: cover-fit;
-    position: absolute;
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/photoaccueil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .main__title {
     color: #C69C6D;
     font-family: 'Courgette', cursive;
-    position: absolute;
-    z-index: 2;
-    top: 45%;
-    left: 45%;
 }
