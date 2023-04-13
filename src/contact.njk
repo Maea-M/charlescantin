@@ -1,0 +1,21 @@
+---
+layout: layout.njk
+---
+
+<main>
+    <h1>Formulaire de contact</h1>
+
+    <form action="" method="post">
+        <label>
+            <input type="text" placeholder="Votre email" id="email" name="email">
+        </label>
+
+        <label>
+            <input type="text" id="message" name="messag" placeholder="votre message">
+        </label>
+                
+        <input type="hidden" name="_csrf_token" value="">
+
+        <button type="submit">Envoyer</button>
+    </form>
+</main>
